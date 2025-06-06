@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: pink;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.message {
+    font-size: 20px;
+    color: red;
+}
+
+#hearts {
+    margin-top: 10px;
+}
