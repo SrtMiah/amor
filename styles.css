@@ -1,10 +1,26 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: pink;
     font-family: Arial, sans-serif;
+}
+
+#openCardBtn {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card-container {
+    display: none; /* Oculta o cartão inicialmente */
+    margin-top: 20px;
 }
 
 .card {
