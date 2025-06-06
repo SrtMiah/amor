@@ -1,9 +1,8 @@
-document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("card").style.display = "none"; // Garante que o cartão começa invisível
-});
-
 document.getElementById("openCardBtn").addEventListener("click", function() {
-    document.getElementById("card").style.display = "block"; // Exibe o cartão ao clicar
+    document.getElementById("card").style.display = "block"; // Exibe o cartão
+    document.getElementById("cardImage").style.display = "block"; // Exibe a foto
+    document.getElementById("cardMessage").style.display = "block"; // Exibe a mensagem
+    document.getElementById("loveButton").style.display = "block"; // Exibe o botão de corações
     this.style.display = "none"; // Oculta o botão de abrir
 });
 

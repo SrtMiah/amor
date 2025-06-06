@@ -9,11 +9,11 @@
 <body>
     <button id="openCardBtn">Abrir Cartão</button>
 
-    <div class="card-container" id="card">
+    <div class="card-container" id="card" style="display: none;">
         <div class="card">
-            <img src="imagem.jpg" alt="Foto fofinha">
-            <p class="message">Você é incrível! ❤️💖💜</p>
-            <button onclick="showLove()">Clique aqui</button>
+            <img id="cardImage" src="foto 01.jpg" alt="Foto fofinha" style="display: none;">
+            <p id="cardMessage" class="message" style="display: none;">Você é incrível! ❤️💖💜</p>
+            <button id="loveButton" style="display: none;" onclick="showLove()">Clique aqui</button>
             <div id="hearts"></div>
         </div>
     </div>
