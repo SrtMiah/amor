@@ -1,5 +1,9 @@
+document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("card").style.display = "none"; // Garante que o cartão começa invisível
+});
+
 document.getElementById("openCardBtn").addEventListener("click", function() {
-    document.getElementById("card").style.display = "block"; // Exibe o cartão
+    document.getElementById("card").style.display = "block"; // Exibe o cartão ao clicar
     this.style.display = "none"; // Oculta o botão de abrir
 });
 
